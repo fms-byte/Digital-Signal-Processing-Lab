@@ -775,7 +775,7 @@ end
 
 Experiment demonstrating the sinc function.
 ```m
-x = -5:0.1:5;
+x = -50:0.1:50;
 
 % Compute sinc(x) while handling division by zero at x = 0
 y = sin(x);
