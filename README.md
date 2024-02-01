@@ -29,7 +29,7 @@ xlabel("x");
 ylabel("y=sin(x), z=cos(x)");
 ```
 ### Output:
-![Experiment 1](screenshots/experiment1.png)
+![Experiment 1](ScreenShots/1.png)
 
 ## Experiment 2: Generating a Continuous Signal
 
@@ -45,6 +45,8 @@ ylabel ('x(t)')
 xlabel ('Time(sec)')
 title ('Figure 2.1')
 ```
+### Output:
+![Experiment 2](ScreenShots/2.png)
 
 ## Experiment 3: Generating a Discrete Signal
 
@@ -59,6 +61,8 @@ xlabel ('n');
 ylabel ('x[n]'); 
 title ('Figure 2.2');
 ```
+### Output:
+![Experiment 3](ScreenShots/3.png)
 
 ## Experiment 4: Generating a Random Signal
 
@@ -76,6 +80,8 @@ ylabel ('x & y')
 xlabel ('n')
 title ('Figure 2.3');
 ```
+### Output:
+![Experiment 4](ScreenShots/4.png)
 
 ## Experiment 5: Generating a Discrete Periodic Signal
 
@@ -102,6 +108,8 @@ xlabel ('n');
 ylabel ('perodic x(n)');
 title ('Figure 2.4(b)');
 ```
+### Output:
+![Experiment 5](ScreenShots/5.png)
 
 ## Experiment 6: Generating Square Wave Using Loop
 
@@ -123,6 +131,8 @@ xlabel ('Time');
 ylabel ('Amplitude');
 title ('Square Wave');
 ```
+### Output:
+![Experiment 6](ScreenShots/6.png)
 
 ## Experiment 7: Generating Unit Step Discrete Time Signal
 
@@ -142,6 +152,8 @@ xlabel('Time');
 ylabel('Amplitude of Y');
 title('Generating Unit Step Function');
 ```
+### Output:
+![Experiment 7](ScreenShots/7.png)
 
 ## Experiment 8: Generating Unit Impulse Signal
 
@@ -173,6 +185,8 @@ xlabel('n');
 ylabel('Amplitude of Y');
 title('Unit impulse signal');
 ```
+### Output:
+![Experiment 8](ScreenShots/8.png)
 
 ## Experiment 9: Generating and Plotting Ramp Discrete Time Signal
 
@@ -193,6 +207,8 @@ xlabel ('Time');
 ylabel ('Amplitude of Y');
 grid on;
 ```
+### Output:
+![Experiment 9](ScreenShots/9.png)
 
 ## Experiment 10: Time Reversal of Discrete Sinusoidal Function
 
@@ -232,6 +248,8 @@ ax.XAxis.FontWeight = 'bold';
 ax.YAxis.FontSize = 15;
 ax.YAxis.FontWeight = 'bold';
 ```
+### Output:
+![Experiment 10](ScreenShots/10.png)
 
 ## Experiment 11: Time Reversal of Discrete Sinusoidal Function
 
@@ -274,6 +292,8 @@ ax.XAxis.FontWeight = 'bold';
 ax.YAxis.FontSize = 15;
 ax.YAxis.FontWeight = 'bold';
 ```
+### Output:
+![Experiment 11](ScreenShots/11.png)
 
 ## Experiment 12: Signal Addition
 
@@ -338,6 +358,8 @@ end
 y=m1+m2;
 end
 ```
+### Output:
+![Experiment 12](ScreenShots/12.png)
 
 ## Experiment 13: Signal Multiplication
 
@@ -408,6 +430,8 @@ end
 m=m1.*m2;
 end
 ```
+### Output:
+![Experiment 13](ScreenShots/13.png)
 
 ## Experiment 14: Time Scaling for the sketch y[n]=x[n/2]
 
@@ -458,6 +482,9 @@ grid minor;
 axis([(2*start_value-1) (2*end_value+1) -2 2]);
 title("Compresion signal Y[n]=X[n/2]");
 ```
+### Output:
+![Experiment 14_1](ScreenShots/14_1.png)
+
 ### Time Scaling Ex 2: Find y[n]=x[2n] and y[n]=x[n/2]
 ```m
 close all;
@@ -513,6 +540,8 @@ grid minor;
 axis([-13 13 -0.5 1.5]);
 title("Expanding signal Y[n] = X[n/2]");
 ```
+### Output:
+![Experiment 14_2](ScreenShots/14_2.png)
 
 ## Experiment 15: Time Shifted Signals of Sketch the signal x[n], y[n]=x[n-4] and x[n+4], derived from x[n]
 
@@ -553,6 +582,8 @@ axis([-7-2-4 7+2-4 min(x)-2 max(x)+2]);
 grid on;
 grid minor;
 ```
+### Output:
+![Experiment 15](ScreenShots/15.png)
 
 ## Experiment 16: Decomposition of Signal into Even and Odd Components
 
@@ -601,6 +632,8 @@ xlabel('n');
 ylabel('Amplitude'); 
 title('Odd Signal');
 ```
+### Output:
+![Experiment 16](ScreenShots/16.png)
 
 ## Experiment 17: Discrete Time Signal Transformation (Precedence Rule - Shifting and Scaling)
 
@@ -649,6 +682,8 @@ xlabel('n');
 ylabel('amplitude');
 title('y[n] = x[2n+3]');
 ```
+### Output:
+![Experiment 17](ScreenShots/17.png)
 
 ## Experiment 18: Shifting Signals y[n]=x[n-3] and z[n]=x[n+2]
 
@@ -689,6 +724,8 @@ xlabel('n');
 ylabel('amplitude');
 title('z[n] = x[n+2]');
 ```
+### Output:
+![Experiment 18](ScreenShots/18.png)
 
 ## Experiment 19: Convolution of Signals
 
@@ -731,6 +768,8 @@ n=m1:m2;
 y=conv(y1,h); % build in function s
 end
 ```
+### Output:
+![Experiment 19](ScreenShots/19.png)
 
 ## Experiment 20: Sinc Function
 
@@ -757,6 +796,8 @@ grid on;
 xlabel("x");
 ylabel("z = sinc(x)");
 ```
+### Output:
+![Experiment 20](ScreenShots/20.png)
 
 ## Experiment 21: Aliasing Effect
 
@@ -827,3 +868,5 @@ else
     hold off;
 end
 ```
+### Output:
+![Experiment 21](ScreenShots/21.png)
